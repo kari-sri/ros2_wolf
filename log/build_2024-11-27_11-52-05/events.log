@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.004069] (ros2_sheep) JobQueued: {'identifier': 'ros2_sheep', 'dependencies': OrderedDict()}
+[0.004454] (ros2_sheep) JobStarted: {'identifier': 'ros2_sheep'}
+[0.095835] (-) TimerEvent: {}
+[0.197051] (-) TimerEvent: {}
+[0.297673] (-) TimerEvent: {}
+[0.399342] (-) TimerEvent: {}
+[0.513101] (-) TimerEvent: {}
+[0.613896] (-) TimerEvent: {}
+[0.714672] (-) TimerEvent: {}
+[0.821627] (-) TimerEvent: {}
+[0.925742] (-) TimerEvent: {}
+[1.027419] (-) TimerEvent: {}
+[1.128699] (-) TimerEvent: {}
+[1.231230] (-) TimerEvent: {}
+[1.344973] (-) TimerEvent: {}
+[1.446272] (-) TimerEvent: {}
+[1.553806] (-) TimerEvent: {}
+[1.669799] (-) TimerEvent: {}
+[1.782183] (-) TimerEvent: {}
+[1.883092] (-) TimerEvent: {}
+[1.986429] (-) TimerEvent: {}
+[1.996785] (ros2_sheep) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_sheep', 'build', '--build-base', '/home/teja/ros2_hunter/build/ros2_sheep/build', 'install', '--record', '/home/teja/ros2_hunter/build/ros2_sheep/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/teja/ros2_hunter/src/ros2_sheep', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'teja', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/teja', 'OLDPWD': '/home/teja/ros2_hunter/src/ros2_sheep/ros2_sheep', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1859', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/teja/ros2_hunter/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'teja', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'teja', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/teja-VirtualBox:@/tmp/.ICE-unix/1818,unix/teja-VirtualBox:/tmp/.ICE-unix/1818', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dae2a003_5398_4548_bf2b_372d98ba82a4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EPLWX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/teja/ros2_hunter/install/ros2_sheep:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/teja/ros2_hunter/build/ros2_sheep', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/teja/ros2_hunter/build/ros2_sheep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages:/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.176659] (-) TimerEvent: {}
+[2.284217] (-) TimerEvent: {}
+[2.411680] (-) TimerEvent: {}
+[2.627418] (-) TimerEvent: {}
+[2.718011] (ros2_sheep) StdoutLine: {'line': b'running egg_info\n'}
+[2.720164] (ros2_sheep) StdoutLine: {'line': b'writing ../../build/ros2_sheep/ros2_sheep.egg-info/PKG-INFO\n'}
+[2.722591] (ros2_sheep) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_sheep/ros2_sheep.egg-info/dependency_links.txt\n'}
+[2.724241] (ros2_sheep) StdoutLine: {'line': b'writing entry points to ../../build/ros2_sheep/ros2_sheep.egg-info/entry_points.txt\n'}
+[2.726735] (ros2_sheep) StdoutLine: {'line': b'writing requirements to ../../build/ros2_sheep/ros2_sheep.egg-info/requires.txt\n'}
+[2.727789] (-) TimerEvent: {}
+[2.728883] (ros2_sheep) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_sheep/ros2_sheep.egg-info/top_level.txt\n'}
+[2.734634] (ros2_sheep) StdoutLine: {'line': b"reading manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'\n"}
+[2.737109] (ros2_sheep) StdoutLine: {'line': b"writing manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'\n"}
+[2.738751] (ros2_sheep) StdoutLine: {'line': b'running build\n'}
+[2.739037] (ros2_sheep) StdoutLine: {'line': b'running build_py\n'}
+[2.740665] (ros2_sheep) StdoutLine: {'line': b'copying ros2_sheep/sheep_node.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep\n'}
+[2.741115] (ros2_sheep) StdoutLine: {'line': b'running install\n'}
+[2.746726] (ros2_sheep) StdoutLine: {'line': b'running install_lib\n'}
+[2.747064] (ros2_sheep) StdoutLine: {'line': b'copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/sheep_node.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep\n'}
+[2.748036] (ros2_sheep) StdoutLine: {'line': b'byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/sheep_node.py to sheep_node.cpython-310.pyc\n'}
+[2.748410] (ros2_sheep) StdoutLine: {'line': b'running install_data\n'}
+[2.748609] (ros2_sheep) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.751822] (ros2_sheep) StdoutLine: {'line': b"removing '/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.752882] (ros2_sheep) StdoutLine: {'line': b'Copying ../../build/ros2_sheep/ros2_sheep.egg-info to /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep-0.0.0-py3.10.egg-info\n'}
+[2.755840] (ros2_sheep) StdoutLine: {'line': b'running install_scripts\n'}
+[2.801770] (ros2_sheep) StdoutLine: {'line': b'Installing hunter_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep\n'}
+[2.802041] (ros2_sheep) StdoutLine: {'line': b'Installing sheep_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep\n'}
+[2.803879] (ros2_sheep) StdoutLine: {'line': b'Installing wolf_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep\n'}
+[2.806637] (ros2_sheep) StdoutLine: {'line': b"writing list of installed files to '/home/teja/ros2_hunter/build/ros2_sheep/install.log'\n"}
+[2.856497] (-) TimerEvent: {}
+[2.860795] (ros2_sheep) CommandEnded: {'returncode': 0}
+[2.904209] (ros2_sheep) JobEnded: {'identifier': 'ros2_sheep', 'rc': 0}
+[2.909010] (-) EventReactorShutdown: {}

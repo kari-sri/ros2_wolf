@@ -1,0 +1,26 @@
+[2.020s] Invoking command in '/home/teja/ros2_hunter/src/ros2_sheep': PYTHONPATH=/home/teja/ros2_hunter/build/ros2_sheep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_sheep build --build-base /home/teja/ros2_hunter/build/ros2_sheep/build install --record /home/teja/ros2_hunter/build/ros2_sheep/install.log --single-version-externally-managed install_data
+[2.714s] running egg_info
+[2.716s] writing ../../build/ros2_sheep/ros2_sheep.egg-info/PKG-INFO
+[2.718s] writing dependency_links to ../../build/ros2_sheep/ros2_sheep.egg-info/dependency_links.txt
+[2.720s] writing entry points to ../../build/ros2_sheep/ros2_sheep.egg-info/entry_points.txt
+[2.722s] writing requirements to ../../build/ros2_sheep/ros2_sheep.egg-info/requires.txt
+[2.725s] writing top-level names to ../../build/ros2_sheep/ros2_sheep.egg-info/top_level.txt
+[2.731s] reading manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'
+[2.733s] writing manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'
+[2.734s] running build
+[2.735s] running build_py
+[2.736s] copying ros2_sheep/sheep_node.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[2.737s] running install
+[2.742s] running install_lib
+[2.743s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/sheep_node.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[2.744s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/sheep_node.py to sheep_node.cpython-310.pyc
+[2.744s] running install_data
+[2.744s] running install_egg_info
+[2.747s] removing '/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep-0.0.0-py3.10.egg-info' (and everything under it)
+[2.748s] Copying ../../build/ros2_sheep/ros2_sheep.egg-info to /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep-0.0.0-py3.10.egg-info
+[2.752s] running install_scripts
+[2.797s] Installing hunter_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[2.798s] Installing sheep_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[2.800s] Installing wolf_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[2.803s] writing list of installed files to '/home/teja/ros2_hunter/build/ros2_sheep/install.log'
+[2.857s] Invoked command in '/home/teja/ros2_hunter/src/ros2_sheep' returned '0': PYTHONPATH=/home/teja/ros2_hunter/build/ros2_sheep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_sheep build --build-base /home/teja/ros2_hunter/build/ros2_sheep/build install --record /home/teja/ros2_hunter/build/ros2_sheep/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+[console_scripts]
+hunter_node = ros2_sheep.hunter_node:main
+sheep_node = ros2_sheep.sheep_node:main
+wolf_node = ros2_sheep.wolf_node:main
+

@@ -1,0 +1,5 @@
+  File "/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/hunter_node.py", line 1
+    kimport rclpy
+            ^^^^^
+SyntaxError: invalid syntax
+

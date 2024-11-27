@@ -1,0 +1,51 @@
+[0.971s] Invoking command in '/home/teja/ros2_hunter/src/ros2_sheep': PYTHONPATH=/home/teja/ros2_hunter/build/ros2_sheep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_sheep build --build-base /home/teja/ros2_hunter/build/ros2_sheep/build install --record /home/teja/ros2_hunter/build/ros2_sheep/install.log --single-version-externally-managed install_data
+[1.313s] running egg_info
+[1.315s] creating ../../build/ros2_sheep/ros2_sheep.egg-info
+[1.315s] writing ../../build/ros2_sheep/ros2_sheep.egg-info/PKG-INFO
+[1.315s] writing dependency_links to ../../build/ros2_sheep/ros2_sheep.egg-info/dependency_links.txt
+[1.316s] writing entry points to ../../build/ros2_sheep/ros2_sheep.egg-info/entry_points.txt
+[1.316s] writing requirements to ../../build/ros2_sheep/ros2_sheep.egg-info/requires.txt
+[1.316s] writing top-level names to ../../build/ros2_sheep/ros2_sheep.egg-info/top_level.txt
+[1.316s] writing manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'
+[1.327s] reading manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'
+[1.327s] writing manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'
+[1.328s] running build
+[1.328s] running build_py
+[1.328s] creating /home/teja/ros2_hunter/build/ros2_sheep/build
+[1.328s] creating /home/teja/ros2_hunter/build/ros2_sheep/build/lib
+[1.328s] creating /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[1.328s] copying ros2_sheep/utils.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[1.328s] copying ros2_sheep/wolf_node.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[1.328s] copying ros2_sheep/hunter_node.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[1.328s] copying ros2_sheep/statistics_logger.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[1.328s] copying ros2_sheep/__init__.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[1.329s] copying ros2_sheep/sheep_node.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[1.329s] running install
+[1.329s] running install_lib
+[1.329s] creating /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[1.329s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/utils.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[1.329s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/wolf_node.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[1.329s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/hunter_node.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[1.329s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/statistics_logger.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[1.330s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/__init__.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[1.330s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/sheep_node.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[1.330s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/utils.py to utils.cpython-310.pyc
+[1.330s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/wolf_node.py to wolf_node.cpython-310.pyc
+[1.330s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/hunter_node.py to hunter_node.cpython-310.pyc
+[1.330s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/statistics_logger.py to statistics_logger.cpython-310.pyc
+[1.331s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/__init__.py to __init__.cpython-310.pyc
+[1.331s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/sheep_node.py to sheep_node.cpython-310.pyc
+[1.331s] running install_data
+[1.331s] creating /home/teja/ros2_hunter/install/ros2_sheep/share/ament_index
+[1.331s] creating /home/teja/ros2_hunter/install/ros2_sheep/share/ament_index/resource_index
+[1.332s] creating /home/teja/ros2_hunter/install/ros2_sheep/share/ament_index/resource_index/packages
+[1.332s] copying resource/ros2_sheep -> /home/teja/ros2_hunter/install/ros2_sheep/share/ament_index/resource_index/packages
+[1.332s] copying package.xml -> /home/teja/ros2_hunter/install/ros2_sheep/share/ros2_sheep
+[1.332s] running install_egg_info
+[1.332s] Copying ../../build/ros2_sheep/ros2_sheep.egg-info to /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep-0.0.0-py3.10.egg-info
+[1.333s] running install_scripts
+[1.374s] Installing hunter_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[1.374s] Installing sheep_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[1.374s] Installing wolf_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[1.375s] writing list of installed files to '/home/teja/ros2_hunter/build/ros2_sheep/install.log'
+[1.414s] Invoked command in '/home/teja/ros2_hunter/src/ros2_sheep' returned '0': PYTHONPATH=/home/teja/ros2_hunter/build/ros2_sheep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_sheep build --build-base /home/teja/ros2_hunter/build/ros2_sheep/build install --record /home/teja/ros2_hunter/build/ros2_sheep/install.log --single-version-externally-managed install_data

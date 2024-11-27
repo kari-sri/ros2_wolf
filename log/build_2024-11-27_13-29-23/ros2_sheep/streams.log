@@ -1,0 +1,32 @@
+[2.989s] Invoking command in '/home/teja/ros2_hunter/src/ros2_sheep': PYTHONPATH=/home/teja/ros2_hunter/build/ros2_sheep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_sheep build --build-base /home/teja/ros2_hunter/build/ros2_sheep/build install --record /home/teja/ros2_hunter/build/ros2_sheep/install.log --single-version-externally-managed install_data
+[3.433s] running egg_info
+[3.435s] writing ../../build/ros2_sheep/ros2_sheep.egg-info/PKG-INFO
+[3.437s] writing dependency_links to ../../build/ros2_sheep/ros2_sheep.egg-info/dependency_links.txt
+[3.439s] writing entry points to ../../build/ros2_sheep/ros2_sheep.egg-info/entry_points.txt
+[3.441s] writing requirements to ../../build/ros2_sheep/ros2_sheep.egg-info/requires.txt
+[3.443s] writing top-level names to ../../build/ros2_sheep/ros2_sheep.egg-info/top_level.txt
+[3.449s] reading manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'
+[3.450s] writing manifest file '../../build/ros2_sheep/ros2_sheep.egg-info/SOURCES.txt'
+[3.450s] running build
+[3.450s] running build_py
+[3.452s] copying ros2_sheep/wolf_node.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[3.453s] copying ros2_sheep/hunter_node.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[3.454s] copying ros2_sheep/sheep_node.py -> /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep
+[3.455s] running install
+[3.462s] running install_lib
+[3.462s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/wolf_node.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[3.463s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/hunter_node.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[3.463s] copying /home/teja/ros2_hunter/build/ros2_sheep/build/lib/ros2_sheep/sheep_node.py -> /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep
+[3.463s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/wolf_node.py to wolf_node.cpython-310.pyc
+[3.468s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/hunter_node.py to hunter_node.cpython-310.pyc
+[3.474s] byte-compiling /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep/sheep_node.py to sheep_node.cpython-310.pyc
+[3.476s] running install_data
+[3.476s] running install_egg_info
+[3.479s] removing '/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep-0.0.0-py3.10.egg-info' (and everything under it)
+[3.480s] Copying ../../build/ros2_sheep/ros2_sheep.egg-info to /home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages/ros2_sheep-0.0.0-py3.10.egg-info
+[3.482s] running install_scripts
+[3.522s] Installing hunter_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[3.524s] Installing sheep_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[3.525s] Installing wolf_node script to /home/teja/ros2_hunter/install/ros2_sheep/lib/ros2_sheep
+[3.528s] writing list of installed files to '/home/teja/ros2_hunter/build/ros2_sheep/install.log'
+[3.579s] Invoked command in '/home/teja/ros2_hunter/src/ros2_sheep' returned '0': PYTHONPATH=/home/teja/ros2_hunter/build/ros2_sheep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/teja/ros2_hunter/install/ros2_sheep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_sheep build --build-base /home/teja/ros2_hunter/build/ros2_sheep/build install --record /home/teja/ros2_hunter/build/ros2_sheep/install.log --single-version-externally-managed install_data
