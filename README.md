@@ -35,15 +35,35 @@ The solution was tested 10 times
    
    source /opt/ros/humble/setup.bash
    source ~/ros2_hunter/install/setup.bash
-2. Launch the nodes:
+   
+2. Once coding part is completed, we build the code.
 
-   ros2 run ros2_wolf sheep_node
-   ros2 run ros2_wolf wolf_node
-   ros2 run ros2_wolf hunter_node
+   cd ~/ros2_hunter
+   colcon build
+   source install/setup.bash
 
-3. Observe the behavior in the turtlesim window.
+3. Run
 
-4. Logs are generated in the terminal to track events i.e., Launch the nodes:
+   ros2 run turtlesim turtlesim_node
+   
+In Separate terminal, run the below commands to launch and run the sheep node:
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 3.0, y: 8.0, theta: 0.0, name: 'sheep'}"
+source ~/ros2_hunter/install/setup.bash
+ros2 run ros2_sheep sheep_node
+
+In Separate terminal, run the below commands to launch and run the wolf node:
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 5.0, y: 5.0, theta: 0.0, name: 'wolf'}"
+source ~/ros2_hunter/install/setup.bash
+ros2 run ros2_sheep wolf_node
+
+In Separate terminal, run the below commands to launch and run the hunter node:
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 8.0, y: 3.0, theta: 0.0, name: 'hunter'}"
+source ~/ros2_hunter/install/setup.bash
+ros2 run ros2_sheep hunter_node
+
+4. Observe the behavior in the turtlesim window.
+
+5. Logs are generated in the terminal to track events i.e., Launch the nodes:
 
    ros2 run ros2_wolf sheep_node
    ros2 run ros2_wolf wolf_node
